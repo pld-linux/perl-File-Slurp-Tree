@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	File
-%define	pnam	Slurp-Tree
+%define		pdir	File
+%define		pnam	Slurp-Tree
 Summary:	File::Slurp::Tree - slurp and emit file trees as nested hashes
 Summary(pl):	File::Slurp::Tree - tworzenie z plików drzew jako zagnie¿d¿onych haszy
 Name:		perl-File-Slurp-Tree
