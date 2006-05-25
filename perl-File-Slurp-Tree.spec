@@ -8,13 +8,13 @@
 Summary:	File::Slurp::Tree - slurp and emit file trees as nested hashes
 Summary(pl):	File::Slurp::Tree - tworzenie z plików drzew jako zagnie¿d¿onych haszy
 Name:		perl-File-Slurp-Tree
-Version:	1.22
+Version:	1.23
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	0135cb246cfcd54c1db483064b791f18
+# Source0-md5:	4aa72cc28fa2a2bc4eed78a445f08ba0
 %if %{with tests}
 BuildRequires:	perl-File-Find-Rule
 BuildRequires:	perl-File-Slurp
