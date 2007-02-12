@@ -6,7 +6,7 @@
 %define		pdir	File
 %define		pnam	Slurp-Tree
 Summary:	File::Slurp::Tree - slurp and emit file trees as nested hashes
-Summary(pl):	File::Slurp::Tree - tworzenie z plikÛw drzew jako zagnieødøonych haszy
+Summary(pl.UTF-8):   File::Slurp::Tree - tworzenie z plik√≥w drzew jako zagnie≈ºd≈ºonych haszy
 Name:		perl-File-Slurp-Tree
 Version:	1.23
 Release:	1
@@ -29,9 +29,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 File::Slurp::Tree provides functions for slurping and emitting trees
 of files and directories.
 
-%description -l pl
+%description -l pl.UTF-8
 File::Slurp::Tree dostarcza funkcje do odczytu i tworzenia drzew
-plikÛw i katalogÛw.
+plik√≥w i katalog√≥w.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
